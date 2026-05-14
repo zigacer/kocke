@@ -8,6 +8,7 @@ session_destroy();
     <meta charset="UTF-8">
     <title>Grand Casino - Vstop</title>
     <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="slike/favicon.png">
 </head>
 <body class="casino-theme">
     <div class="neon-title">

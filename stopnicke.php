@@ -11,6 +11,7 @@ arsort($sestevki);
     <meta charset="UTF-8">
     <title>Casino - Stopničke</title>
     <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="slike/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
 </head>
 <body class="casino-theme">

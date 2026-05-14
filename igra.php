@@ -38,6 +38,7 @@ $sestevki = $_SESSION['sestevki'];
     <meta charset="UTF-8">
     <title>Casino - Runda <?php echo $runda; ?></title>
     <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" href="slike/favicon.png">
 </head>
 <body class="casino-theme">
 
@@ -79,7 +80,7 @@ $sestevki = $_SESSION['sestevki'];
     <div id="controls-section" style="display: none; text-align: center; margin-top: 30px;">
         <?php if ($runda < 3): ?>
             <form method="POST">
-                <button type="submit" name="next_round" class="btn-gold">NASLEDNJO RUNDO</button>
+                <button type="submit" name="next_round" class="btn-gold">NASLEDNJA RUNDA</button>
             </form>
         <?php else: ?>
             <button onclick="window.location.href='stopnicke.php'" class="btn-gold">POGLEJ REZULTATE 🏆</button>
